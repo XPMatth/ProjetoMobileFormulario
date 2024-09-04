@@ -27,7 +27,7 @@ public class ListaDois extends AppCompatActivity {
         nome = findViewById(R.id.tvNome);
         email = findViewById(R.id.tvEmail);
         telefone = findViewById(R.id.tvTelefone);
-        idade = findViewById(R.id.tvIdade);
+        idade = findViewById(R.id.tvIdad);
         voltarBtn = findViewById(R.id.btnVoltar);
 
         Intent intent = getIntent();

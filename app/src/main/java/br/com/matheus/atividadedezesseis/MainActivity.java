@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         nomeEdit = findViewById(R.id.edtNome);
         emailEdit = findViewById(R.id.edtEmail);
         telefoneEdit = findViewById(R.id.edtPhone);
-        idadeEdit = findViewById(R.id.edtIdade);
+        idadeEdit = findViewById(R.id.edtIdad);
         enviarBtn = findViewById(R.id.btnEnviar);
 
         enviarBtn.setOnClickListener(new View.OnClickListener() {
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                 intencao.putExtra("nome", nomeEdit.getText().toString());
                 intencao.putExtra("email", emailEdit.getText().toString());
                 intencao.putExtra("telefone", telefoneEdit.getText().toString());
-                intencao.putExtra("Idade", idadeEdit.getText().toString());
+                intencao.putExtra("idade", idadeEdit.getText().toString());
 
                 startActivity(intencao);
             }
