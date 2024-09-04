@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".ListaDois">
+
+    <TextView
+        android:id="@+id/tvNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome: "
+        android:textStyle="bold"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email: "
+        android:textStyle="bold"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/tvTelefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telefone: "
+        android:textStyle="bold"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:id="@+id/tvIdade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Idade: "
+        android:textStyle="bold"
+        android:textSize="18sp"
+        />
+
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"/>
+
+
+</LinearLayout>
